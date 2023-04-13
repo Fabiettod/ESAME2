@@ -9,19 +9,19 @@ body{
 header img{
     max-width: 1400px;
     object-fit: cover;
-    align-items: center;
+    margin: auto;
 }
 
 section.Testata h1{
-    padding-left: 500px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 30pt;
+    text-align: center;
 }
 
-main, footer{
+main{
 padding-top: 50px;
-max-width: 1200px;
+max-width: 1400px;
 align-content: center;
 margin: 50px;
 }
@@ -33,14 +33,17 @@ main img{
     padding: 20px;
     }
     
-nav ul{
+header nav ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    align-content: center;
     padding: 20px;
     padding-top: 20px;
     font-size: 20pt;
+}
+
+section.Tasti{
+    margin: auto;
 }
 
 section.Tasti a{
@@ -60,15 +63,14 @@ section.Tasti a:hover{
 
 section.Introduzione{
     max-width: 500px;
-    padding-top: 70px;
 }
 
 section.Immagineintro{
     max-width: 500px;
 }
 
-section.Immagineintro p{
-    padding-left: 20px;
+section.Introduzione, section.Immagineintro{
+    align-content: center;
 }
 
 section.Intro {
@@ -113,10 +115,6 @@ section.Fotodolce{
     max-width: 500px;
 }
 
-section.Fotodolce p{
-    padding-left: 20px;
-}
-
 section.Dolce {
     display: flex;
     justify-content: space-between;
@@ -134,7 +132,6 @@ section.Testoconcl h2, p{
 
 section.Testoconcl{
     padding-top: 80px;
-    padding-left: 50px;
     text-align: right;
 }
 
@@ -159,13 +156,6 @@ section.Lista2 ul{
     font-size: 10pt;
 }
 
-section.Footer {
-    padding-bottom: 100px;
-    display: flex;
-align-content: center;
-padding-left: 500px;
-}
-
 section.Footer a{
     text-decoration: none;
     color: black;
@@ -175,6 +165,21 @@ section.Footer a{
 section.Footer a:hover{
         color: #db9646;
         text-decoration: underline;
+    }
+
+    section.Footer{
+        align-items: baseline;
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    section.Lista1{
+        margin: auto;
+    }
+
+    section.Lista2{
+        margin: auto;
     }
 
     @media (max-width: 800px) {
